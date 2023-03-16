@@ -6,10 +6,6 @@ pipeline {
         bat 'php -version'
       }
     }
-    stage('hello') {
-      steps {
-        bat 'php index.html'
-          } 
-      }
+    
   }
 }
