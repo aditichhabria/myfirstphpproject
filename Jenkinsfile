@@ -11,10 +11,6 @@ pipeline {
         bat 'xcopy /s "*" "D:/xampp/htdocs/myfirstproject1" /Y'
       }
     }
-      stage('open xamp server') {
-      steps {
-        bat 'php -S localhost:8012/myfirstproject1/index.html'
-      }
-    }
+      
   }     
   }
