@@ -16,6 +16,5 @@ pipeline {
         bat 'php -S localhost:8012/myfirstproject1/index.html'
       }
     }
-       
+  }     
   }
-
