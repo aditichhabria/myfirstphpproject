@@ -8,7 +8,7 @@ pipeline {
     }
     stage('copy php code on xampp server') {
       steps {
-        bat 'xcopy /s * D:/xampp/htdocs/myfirstproject1/ /Y'
+        bat 'xcopy /s * D:/xampp/htdocs/myfirstproject1'
       }
     }
       stage('open xamp server') {
